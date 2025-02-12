@@ -1,17 +1,17 @@
 # NBA_Analysis Report 
 This report provides a comprehensive analysis of the NBA player dataset. The objective is to explore the factors influencing player performance and analyze trends using Exploratory Data Analysis (EDA) and visualizations. The dataset includes player demographics, team associations, game statistics, and performance metrics.
 
-#1. Data Overview
+1. Data Overview
 
 The dataset consists of multiple features such as player name, position, age, team, season, and various performance statistics like points per game, assists, rebounds, and efficiency ratings.
 
 It includes categorical variables like position (PG, SG, SF, PF, C) and team identifiers.
 
-#2. Data Acquisition and Preprocessing
+2. Data Acquisition and Preprocessing
 
 The dataset was loaded using Pandas, with additional libraries such as NumPy, Matplotlib, and Seaborn used for analysis and visualization.
 
-#3. Data Cleaning
+3. Data Cleaning
 
 Missing values in key columns were handled using mean/mode imputation.
 
@@ -19,7 +19,7 @@ Categorical values were encoded for better analysis.
 
 Outliers in player statistics such as points per game and rebounds were identified and addressed.
 
-#4. Exploratory Data Analysis (EDA)
+4. Exploratory Data Analysis (EDA)
 
 Dataset Summary: Used df.info() and df.describe() to explore dataset properties.
 
@@ -33,7 +33,7 @@ Position-wise Analysis: Compared player performance across different positions (
 
 Age vs. Performance: Explored how age affects player performance metrics.
 
-#5. Data Visualization
+5. Data Visualization
 
 Player Performance Distribution: Visualized using bar charts.
 
@@ -41,7 +41,7 @@ Team-based Performance Comparison: Line plots demonstrated variations among team
 
 Feature Correlations: Heatmaps identified key influencing factors.
 
-#6. Conclusion & Recommendations
+6. Conclusion & Recommendations
 
 Player position significantly impacts performance, with certain positions excelling in specific metrics (e.g., PGs have higher assists, Centers dominate rebounds).
 
